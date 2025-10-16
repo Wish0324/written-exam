@@ -1,0 +1,15 @@
+@forward "element-plus/theme-chalk/src/common/var.scss" with ($colors: (
+  "primary": ("base": #4288B2),
+  "success": ("base": #00B00B),
+  "warning": ("base": #FFA500),
+  "danger": ("base": #FF6347),
+  "info": ("base": #C0C0C0),
+));
+
+:root {
+  --el-text-color-primary: #606060;
+  --el-text-color-regular: #808080;
+  --el-text-color-secondary: #A0A0A0;
+  --el-text-color-placeholder: #C0C0C0;
+  --el-text-color-disabled: #E0E0E0;
+}

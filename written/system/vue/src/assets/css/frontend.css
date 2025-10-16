@@ -1,0 +1,69 @@
+.frontend-header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid aliceblue;
+}
+
+.frontend-header-left {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.frontend-header-left img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.frontend-header-left .title {
+    font-weight: bold;
+    font-size: 25px;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.frontend-header-center {
+    flex: 1;
+}
+
+.el-menu--horizontal {
+    height: 59px;
+    border: none;
+}
+
+.frontend-header-right {
+    padding-right: 10px;
+}
+
+.frontend-header-right .user {
+    display: flex;
+    align-items: center;
+}
+
+.el-dropdown {
+    cursor: pointer;
+}
+
+.el-dropdown img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.el-dropdown span {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.el-tooltip__trigger {
+    outline: none;
+}
+
+.frontend-body {
+    width: 80%;
+    margin: 10px auto;
+}
